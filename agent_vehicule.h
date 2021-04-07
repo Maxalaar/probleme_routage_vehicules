@@ -14,6 +14,7 @@ public:
     QString getNom_sommet_initiale() const;
     QString getNom_sommet_final() const;
     double getCapacite_logistique() const;
+    QString getNom_agent() const;
 
 private:
     QString nom_agent;

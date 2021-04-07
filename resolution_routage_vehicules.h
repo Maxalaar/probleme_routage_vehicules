@@ -24,6 +24,7 @@ private:
     int m;
     double n[5];
     double c[5];
+    double f;
     QVector<Agent_fourmi*> liste_fourmis;
 };
 

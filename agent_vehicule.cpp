@@ -27,3 +27,8 @@ double Agent_vehicule::getCapacite_logistique() const
 {
     return capacite_logistique;
 }
+
+QString Agent_vehicule::getNom_agent() const
+{
+    return nom_agent;
+}
